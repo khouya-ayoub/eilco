@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TD3</string>
+    <string name="lance">Lancer le dé</string>
+    <string name="resultat">RESULTAT</string>
+    <string name="exercice_1">Exercice 1</string>
+    <string name="exercice_2">Exercice 2</string>
+    <string name="exercice_3">Exercice 3</string>
+    <string name="lance_deux">Lancer les deux</string>
+    <string name="nombre_face">Nombre de faces</string>
+</resources>
