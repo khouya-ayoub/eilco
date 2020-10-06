@@ -17,24 +17,26 @@
         android:columnCount="1">
 
         <TextView
-            android:id="@+id/txv_2_exo3"
+            android:id="@+id/txv_1_exo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/resultat" />
 
         <EditText
-            android:id="@+id/txv_1_exo3"
+            android:id="@+id/edx_1_exo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/nombre_face"
-            android:autofillHints=""
-            />
+            android:importantForAutofill="no"
+            android:inputType="number"
+            tools:ignore="LabelFor" />
+
     </GridLayout>
 
     <Button
-        android:id="@+id/btn_exo2_lance"
+        android:id="@+id/btn_exo3_lance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/lance_deux"
