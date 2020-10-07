@@ -14,6 +14,6 @@
     <title>Title</title>
 </head>
 <body>
-
+Bonjour <jsp:getProperty name="beanHello" property="nom"/>
 </body>
 </html>
