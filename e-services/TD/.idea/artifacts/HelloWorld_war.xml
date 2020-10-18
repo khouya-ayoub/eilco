@@ -1,13 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="war" name="HelloWorld:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
+    <output-path>E:/EILCO/wildfly-20.0.1.Final/standalone/deployments</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>HelloWorld</module>
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="HelloWorld-1.0.war">
+    <root id="archive" name="HelloWorld-1.0.0.war">
       <element id="artifact" artifact-name="HelloWorld:war exploded" />
     </root>
   </artifact>

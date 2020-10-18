@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(schema = "eilco")
+@Table(schema = "eilco", name = "HelloTable")
 public class HelloBean implements Serializable {
 
     private int id;
